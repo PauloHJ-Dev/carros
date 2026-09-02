@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(41, 40, 40);
+    font-family: 'Montserrat', sans-serif;
+}
