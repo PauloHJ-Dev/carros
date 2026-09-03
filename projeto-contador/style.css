@@ -16,8 +16,8 @@ body{
     /* user-select: none; */
 }
 .logo{
-    width: 467px;
-    height: 300px;
+    width: 387px;
+    height: 250px;
 }
 .normal{
     background-color: #ffff;
@@ -59,20 +59,28 @@ h3{
 }
 
 .countdown h1{
-    font-size: calc(10px + 8vw);
+    font-size: calc(10px + 7.5vw);
     color: rgb(249, 247, 247);
-    text-shadow: 0 0 10px  rgb(0, 0, 0);
+     text-shadow: 
+    -2px -2px 0 #000,  
+     1px -2px 0 #000,
+    -2px  1px 0 #000,
+     1px  1px 0 #000;
+     text-shadow: 10px 10px 20px black;
 }
 
-.button{
-    background-color: whitesmoke;
-    color: black;
-    padding: 10px;
+.botao {
+    background-color: #b32020;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    border: solid 2px whitesmoke;
+     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
 }
-
-.button:hover {
-    background-color: black;
-    color: whitesmoke;
+.botao:hover {
+    background-color: #8f1818;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
 }
