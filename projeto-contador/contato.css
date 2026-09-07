@@ -7,6 +7,58 @@
 body{
     background-size: 100%;
     background-repeat: no-repeat;
-    color: rgb(41, 40, 40);
+    background-color: #f5f4f4;
+    color: #222222;
     font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #D71920;
+}
+.titulos{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #222222;
+}
+.navbar .nav-link.active {
+    color: #D71920 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #D4A900;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+.form-label{
+    color: #D71920;
+}
+
+.btn-primary {
+    background-color: #D71920;
+    border-color: #FFD21F;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #ca1313;
+    border-color: #FFD21F;
+    color: #f0e5e5;
+}
+
+.redes-sociais a {
+    color: #D71920;
+    font-size: 30px;
+    margin:8px;
+}
+
+.redes-sociais a:hover {
+    color: #D4A900;
 }

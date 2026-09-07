@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #f5f4f4;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #D71920;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+.nav-link {
+    color: #222222;
+}
+.navbar .nav-link.active {
+    color: #D71920 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #D4A900;
+}
+
+.card-title {
+    color: #D71920;
+}
+
+.card {
+    border-top: 2px solid #FFD21F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-text {
+    color: #353535ee;
+}
+
+.titulos{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#carouselFilme {
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel-item {
+    transition: transform 0.7s ease-in-out, opacity 1s ease-in-out;
+}

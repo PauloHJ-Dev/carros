@@ -5,19 +5,18 @@
 }
 
 
-body{
-    /* background-image: url('/assets/bg-contador.png');  */
+body {
     background-image: url('imgs/personagens.jpg');
-    /* background-image: url('./bg-contador.png'); */
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
-    /* user-select: none; */
 }
-.logo{
-    width: 387px;
-    height: 250px;
+.logo {
+    width: 350px;
+    height: auto;
 }
 .normal{
     background-color: #ffff;
@@ -70,17 +69,21 @@ h3{
 }
 
 .botao {
-    background-color: #b32020;
+    background-color:  #D71920;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(150, 147, 147);
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    display: inline-block;
 }
+
 .botao:hover {
     background-color: #8f1818;
+    color: white;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
 }
